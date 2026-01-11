@@ -9,3 +9,7 @@ body {
     background-color: #ffffff;
     color: #1a202c;
 }
+
+html {
+  scroll-behavior: smooth;
+}

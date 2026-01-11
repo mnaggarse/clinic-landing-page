@@ -23,11 +23,11 @@ export default function Doctors() {
   ];
 
   return (
-    <section className="py-24 px-8 bg-slate-50">
+    <section id="doctors" className="py-16 md:py-24 px-6 md:px-8 bg-slate-50">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-slate-900 mb-4">Meet Our Experts</h2>
-          <p className="text-slate-600 max-w-2xl mx-auto">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Meet Our Experts</h2>
+          <p className="text-slate-600 max-w-2xl mx-auto text-sm md:text-base">
             Our team of dedicated doctors is here to provide you with the best medical care.
           </p>
         </div>

@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="bg-slate-50 border-t border-slate-100 pt-16 pb-8 px-24 text-slate-600">
-      <div className="grid grid-cols-4 gap-12 mb-12">
+    <footer className="bg-slate-50 border-t border-slate-100 pt-16 pb-8 px-6 md:px-24 text-slate-600">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
         <div className="col-span-1">
-          <a href="#" className="flex items-center gap-2 font-bold text-2xl text-primary mb-6">
+          <a href="#home" className="flex items-center gap-2 font-bold text-2xl text-primary mb-6">
              <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -32,20 +32,20 @@ export default function Footer() {
         <div>
            <h3 className="font-bold text-slate-900 mb-6 text-lg">Services</h3>
            <ul className="space-y-4">
-              <li><a href="#" className="hover:text-primary transition-colors">Cardiology</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Neurology</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Pediatrics</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Orthopedics</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">Cardiology</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">Neurology</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">Pediatrics</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">Orthopedics</a></li>
            </ul>
         </div>
 
         <div>
            <h3 className="font-bold text-slate-900 mb-6 text-lg">Quick Links</h3>
            <ul className="space-y-4">
-              <li><a href="#" className="hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Our Doctors</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Book Appointment</a></li>
+              <li><a href="#home" className="hover:text-primary transition-colors">About Us</a></li>
+              <li><a href="#doctors" className="hover:text-primary transition-colors">Our Doctors</a></li>
+              <li><a href="#appointment" className="hover:text-primary transition-colors">Contact</a></li>
+              <li><a href="#appointment" className="hover:text-primary transition-colors">Book Appointment</a></li>
            </ul>
         </div>
 

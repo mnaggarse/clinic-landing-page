@@ -1,14 +1,14 @@
 export default function Appointment() {
   return (
-    <section className="py-24 px-8 bg-white">
+    <section id="appointment" className="py-16 md:py-24 px-6 md:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-primary rounded-3xl p-12 md:p-16 flex flex-col md:flex-row items-center gap-12 shadow-2xl relative overflow-hidden">
+        <div className="bg-primary rounded-3xl p-8 md:p-16 flex flex-col lg:flex-row items-center gap-12 shadow-2xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
         
-          <div className="flex-1 text-white relative z-10">
-            <h2 className="text-4xl font-bold mb-6">Book an Appointment</h2>
-            <p className="text-blue-100 text-lg mb-8 leading-relaxed">
+          <div className="flex-1 text-white relative z-10 w-full">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Book an Appointment</h2>
+            <p className="text-blue-100 text-base md:text-lg mb-8 leading-relaxed">
               Ready to take the first step towards better health? Schedule your appointment efficiently online.
               Our team is ready to assist you with all your medical needs.
             </p>
@@ -25,9 +25,9 @@ export default function Appointment() {
             </div>
           </div>
 
-          <div className="flex-1 w-full max-w-md bg-white p-8 rounded-2xl shadow-lg relative z-10">
+          <div className="flex-1 w-full max-w-md bg-white p-6 md:p-8 rounded-2xl shadow-lg relative z-10">
             <form className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                     <label className="block text-sm font-medium text-slate-700 mb-1">Name</label>
                     <input type="text" className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" placeholder="John Doe" />

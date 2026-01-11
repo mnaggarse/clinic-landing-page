@@ -94,11 +94,11 @@ export default function Services() {
   ];
 
   return (
-    <section className="py-24 px-8 bg-white">
+    <section id="services" className="py-16 md:py-24 px-6 md:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-slate-900 mb-4">Our Services</h2>
-          <p className="text-slate-600 max-w-2xl mx-auto">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Our Services</h2>
+          <p className="text-slate-600 max-w-2xl mx-auto text-sm md:text-base">
             We offer a wide range of medical services to ensure you receive the best possible care.
           </p>
         </div>
@@ -110,7 +110,7 @@ export default function Services() {
                 {service.icon}
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">{service.title}</h3>
-              <p className="text-slate-600 leading-relaxed">
+              <p className="text-slate-600 leading-relaxed text-sm">
                 {service.description}
               </p>
             </div>
