@@ -5,9 +5,18 @@
   --color-secondary: #0056b3;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter.ttf");
+}
+
+* {
+  font-family: "Inter";
+}
+
 body {
-    background-color: #ffffff;
-    color: #1a202c;
+  background-color: #ffffff;
+  color: #1a202c;
 }
 
 html {
