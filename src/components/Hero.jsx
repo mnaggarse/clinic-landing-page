@@ -11,7 +11,7 @@ export default function Hero() {
         </h1>
         <p className="mb-8 text-slate-600 text-base md:text-lg leading-relaxed">
           استمتع برعاية طبية عالمية المستوى مع فريقنا من الأطباء الخبراء. نحن
-          ملتزمون بتقديم رعاية شاملة ورحيمة لك ولعائلتك.
+          ملتزمون بتقديم رعاية شاملة لك ولعائلتك.
         </p>
         <div className="space-x-4 flex items-center justify-center md:justify-start">
           <button className="cursor-pointer py-2 px-4 md:py-3 md:px-8 bg-primary text-white rounded-full font-bold hover:bg-blue-600 transition-colors shadow-lg hover:shadow-xl">

@@ -28,7 +28,7 @@ export default function Header() {
             <path d="M12.5 15.5l2 2" />
             <path d="M15 13l2 2" />
           </svg>
-          <span>ميدكير</span>
+          <span>طبيبي</span>
         </a>
 
         {/* Desktop Menu */}

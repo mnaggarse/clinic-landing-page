@@ -25,7 +25,7 @@ export default function Footer() {
               <path d="M12.5 15.5l2 2" />
               <path d="M15 13l2 2" />
             </svg>
-            <span>ميدكير</span>
+            <span>طبيبي</span>
           </a>
           <p className="text-slate-500 leading-relaxed">
             الريادة في التميز الطبي. نحن نقدم خدمات رعاية صحية شاملة بمرافق
@@ -134,7 +134,7 @@ export default function Footer() {
 
       <div className="border-t border-slate-200 pt-8 text-center text-sm text-slate-500">
         <p>
-          &copy; {new Date().getFullYear()} عيادة ميدكير. جميع الحقوق محفوظة.
+          &copy; {new Date().getFullYear()} عيادة طبيبي. جميع الحقوق محفوظة.
         </p>
       </div>
     </footer>
