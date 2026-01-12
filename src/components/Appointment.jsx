@@ -7,13 +7,10 @@ export default function Appointment() {
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
 
           <div className="flex-1 text-white relative z-10 w-full">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Book an Appointment
-            </h2>
-            <p className="text-blue-100 text-base md:text-lg mb-8 leading-relaxed">
-              Ready to take the first step towards better health? Schedule your
-              appointment efficiently online. Our team is ready to assist you
-              with all your medical needs.
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">حجز موعد</h2>
+            <p className="text-blue-100 text-base md:text-lg mb-8 leading-relaxed font-medium">
+              هل أنت مستعد لاتخاذ الخطوة الأولى نحو صحة أفضل؟ حدد موعدك بكفاءة
+              عبر الإنترنت. فريقنا مستعد لمساعدتك في جميع احتياجاتك الطبية.
             </p>
             <div className="space-y-4">
               <div className="flex items-center gap-4">
@@ -34,7 +31,7 @@ export default function Appointment() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-blue-200 text-sm">Call Us Anytime</p>
+                  <p className="text-blue-200 text-sm">اتصل بنا في أي وقت</p>
                   <p className="text-xl font-bold">+1 (234) 567-890</p>
                 </div>
               </div>
@@ -46,17 +43,17 @@ export default function Appointment() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-1">
-                    Name
+                    الاسم
                   </label>
                   <input
                     type="text"
                     className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
-                    placeholder="John Doe"
+                    placeholder="فلان الفلاني"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-1">
-                    Phone
+                    رقم الهاتف
                   </label>
                   <input
                     type="tel"
@@ -68,31 +65,31 @@ export default function Appointment() {
 
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1">
-                  Service
+                  الخدمة
                 </label>
                 <select className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary">
-                  <option>Select a service</option>
-                  <option>Cardiology</option>
-                  <option>Neurology</option>
-                  <option>Pediatrics</option>
-                  <option>Orthopedics</option>
+                  <option>اختر خدمة</option>
+                  <option>أمراض القلب</option>
+                  <option>طب الأعصاب</option>
+                  <option>طب الأطفال</option>
+                  <option>جراحة العظام</option>
                 </select>
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1">
-                  Doctor
+                  الطبيب
                 </label>
                 <select className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary">
-                  <option>Select a doctor</option>
-                  <option>Dr. Sarah Johnson</option>
-                  <option>Dr. Michael Chen</option>
+                  <option>اختر طبيباً</option>
+                  <option>د. سارة جونسون</option>
+                  <option>د. مايكل تشن</option>
                 </select>
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1">
-                  Date
+                  التاريخ
                 </label>
                 <input
                   type="date"
@@ -104,7 +101,7 @@ export default function Appointment() {
                 type="button"
                 className="w-full py-3 bg-primary text-white font-bold rounded-lg hover:bg-blue-600 transition-colors shadow-lg"
               >
-                Book Now
+                احجز الآن
               </button>
             </form>
           </div>

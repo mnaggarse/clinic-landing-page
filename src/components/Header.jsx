@@ -28,7 +28,7 @@ export default function Header() {
             <path d="M12.5 15.5l2 2" />
             <path d="M15 13l2 2" />
           </svg>
-          <span>MediCare</span>
+          <span>ميدكير</span>
         </a>
 
         {/* Desktop Menu */}
@@ -38,7 +38,7 @@ export default function Header() {
               href="#home"
               className="cursor-pointer font-medium hover:text-primary transition-colors"
             >
-              Home
+              الرئيسية
             </a>
           </li>
           <li>
@@ -46,7 +46,7 @@ export default function Header() {
               href="#services"
               className="cursor-pointer font-medium hover:text-primary transition-colors"
             >
-              Services
+              خدماتنا
             </a>
           </li>
           <li>
@@ -54,7 +54,7 @@ export default function Header() {
               href="#doctors"
               className="cursor-pointer font-medium hover:text-primary transition-colors"
             >
-              Doctors
+              الأطباء
             </a>
           </li>
           <li>
@@ -62,13 +62,13 @@ export default function Header() {
               href="#appointment"
               className="cursor-pointer font-medium hover:text-primary transition-colors"
             >
-              Contact
+              تواصل معنا
             </a>
           </li>
         </ul>
 
         <button className="hidden md:block py-2.5 px-6 rounded-full bg-primary text-white font-bold cursor-pointer hover:bg-blue-600 transition-colors shadow-lg hover:shadow-xl">
-          <a href="#appointment">Book Appointment</a>
+          <a href="#appointment">حجز موعد</a>
         </button>
 
         {/* Mobile Hamburger Button */}
@@ -84,10 +84,10 @@ export default function Header() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="icon icon-tabler icons-tabler-outline icon-tabler-x"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="icon icon-tabler icons-tabler-outline icon-tabler-x"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M18 6l-12 12" />
@@ -101,10 +101,10 @@ export default function Header() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M4 6l16 0" />
@@ -122,35 +122,35 @@ export default function Header() {
               className="font-medium hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Home
+              الرئيسية
             </a>
             <a
               href="#services"
               className="font-medium hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Services
+              خدماتنا
             </a>
             <a
               href="#doctors"
               className="font-medium hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Doctors
+              الأطباء
             </a>
             <a
               href="#appointment"
               className="font-medium hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              تواصل معنا
             </a>
             <a
               href="#appointment"
               className="py-2 px-4 rounded-lg bg-primary text-white font-bold text-center hover:bg-blue-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Book Appointment
+              حجز موعد
             </a>
           </div>
         )}

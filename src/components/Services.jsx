@@ -1,9 +1,8 @@
 export default function Services() {
   const services = [
     {
-      title: "Cardiology",
-      description:
-        "Comprehensive heart care including diagnostics and treatments.",
+      title: "أمراض القلب",
+      description: "رعاية شاملة للقلب تشمل التشخيص والعلاج.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -23,8 +22,8 @@ export default function Services() {
       ),
     },
     {
-      title: "Neurology",
-      description: "Expert care for disorders of the nervous system.",
+      title: "طب الأعصاب",
+      description: "رعاية متخصصة لاضطرابات الجهاز العصبي.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -52,9 +51,8 @@ export default function Services() {
       ),
     },
     {
-      title: "Pediatrics",
-      description:
-        "Specialized medical care for infants, children, and adolescents.",
+      title: "طب الأطفال",
+      description: "رعاية طبية متخصصة للرضع والأطفال والمراهقين.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -78,9 +76,8 @@ export default function Services() {
       ),
     },
     {
-      title: "Orthopedics",
-      description:
-        "Diagnosis and treatment of musculoskeletal system conditions.",
+      title: "جراحة العظام",
+      description: "تشخيص وعلاج حالات الجهاز العضلي الهيكلي.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -103,8 +100,8 @@ export default function Services() {
       ),
     },
     {
-      title: "Dental Care",
-      description: "Comprehensive dental services for a healthy smile.",
+      title: "طب الأسنان",
+      description: "خدمات طب أسنان شاملة لابتسامة صحية.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -130,8 +127,8 @@ export default function Services() {
       ),
     },
     {
-      title: "Laboratory",
-      description: "Accurate and timely diagnostic testing services.",
+      title: "المختبر",
+      description: "خدمات اختبار تشخيصي دقيقة وفي الوقت المناسب.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -161,11 +158,11 @@ export default function Services() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Our Services
+            خدماتنا
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto text-sm md:text-base">
-            We offer a wide range of medical services to ensure you receive the
-            best possible care.
+            نحن نقدم مجموعة واسعة من الخدمات الطبية لضمان حصولك على أفضل رعاية
+            ممكنة.
           </p>
         </div>
 

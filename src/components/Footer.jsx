@@ -25,23 +25,23 @@ export default function Footer() {
               <path d="M12.5 15.5l2 2" />
               <path d="M15 13l2 2" />
             </svg>
-            <span>MediCare</span>
+            <span>ميدكير</span>
           </a>
           <p className="text-slate-500 leading-relaxed">
-            Leading the way in medical excellence. We provide comprehensive
-            healthcare services with state-of-the-art facilities.
+            الريادة في التميز الطبي. نحن نقدم خدمات رعاية صحية شاملة بمرافق
+            حديثة.
           </p>
         </div>
 
         <div>
-          <h3 className="font-bold text-slate-900 mb-6 text-lg">Services</h3>
+          <h3 className="font-bold text-slate-900 mb-6 text-lg">خدماتنا</h3>
           <ul className="space-y-4">
             <li>
               <a
                 href="#services"
                 className="hover:text-primary transition-colors"
               >
-                Cardiology
+                طب القلب
               </a>
             </li>
             <li>
@@ -49,7 +49,7 @@ export default function Footer() {
                 href="#services"
                 className="hover:text-primary transition-colors"
               >
-                Neurology
+                طب الأعصاب
               </a>
             </li>
             <li>
@@ -57,7 +57,7 @@ export default function Footer() {
                 href="#services"
                 className="hover:text-primary transition-colors"
               >
-                Pediatrics
+                طب الأطفال
               </a>
             </li>
             <li>
@@ -65,18 +65,18 @@ export default function Footer() {
                 href="#services"
                 className="hover:text-primary transition-colors"
               >
-                Orthopedics
+                جراحة العظام
               </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <h3 className="font-bold text-slate-900 mb-6 text-lg">Quick Links</h3>
+          <h3 className="font-bold text-slate-900 mb-6 text-lg">روابط سريعة</h3>
           <ul className="space-y-4">
             <li>
               <a href="#home" className="hover:text-primary transition-colors">
-                About Us
+                من نحن
               </a>
             </li>
             <li>
@@ -84,7 +84,7 @@ export default function Footer() {
                 href="#doctors"
                 className="hover:text-primary transition-colors"
               >
-                Our Doctors
+                أطباؤنا
               </a>
             </li>
             <li>
@@ -92,7 +92,7 @@ export default function Footer() {
                 href="#appointment"
                 className="hover:text-primary transition-colors"
               >
-                Contact
+                تواصل معنا
               </a>
             </li>
             <li>
@@ -100,17 +100,17 @@ export default function Footer() {
                 href="#appointment"
                 className="hover:text-primary transition-colors"
               >
-                Book Appointment
+                حجز موعد
               </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <h3 className="font-bold text-slate-900 mb-6 text-lg">Contact Us</h3>
+          <h3 className="font-bold text-slate-900 mb-6 text-lg">اتصل بنا</h3>
           <ul className="space-y-4">
             <li className="flex items-start gap-3">
-              <span>123 Medical Avenue, NY, USA</span>
+              <span>مصر - القاهرة</span>
             </li>
             <li>
               <a
@@ -134,8 +134,7 @@ export default function Footer() {
 
       <div className="border-t border-slate-200 pt-8 text-center text-sm text-slate-500">
         <p>
-          &copy; {new Date().getFullYear()} MediCare Clinic. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} عيادة ميدكير. جميع الحقوق محفوظة.
         </p>
       </div>
     </footer>
