@@ -48,7 +48,7 @@ export default function Appointment() {
                   <input
                     type="text"
                     className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
-                    placeholder="فلان الفلاني"
+                    placeholder="محمد أحمد"
                   />
                 </div>
                 <div>

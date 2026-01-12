@@ -3,22 +3,22 @@ export default function Doctors() {
     {
       name: "أحمد السيد",
       specialty: "طبيب قلب",
-      image: "doctor7.jpg",
+      image: "doctor1.jpg",
     },
     {
       name: "علي محمد",
       specialty: "طبيب أعصاب",
-      image: "doctor4.jpg",
+      image: "doctor2.jpg",
     },
     {
       name: "مصطفى سعيد",
       specialty: "طبيب أطفال",
-      image: "doctor6.jpg",
+      image: "doctor3.jpg",
     },
     {
       name: "محمود علي",
       specialty: "جراح عظام",
-      image: "doctor5.jpg",
+      image: "doctor4.jpg",
     },
   ];
 
