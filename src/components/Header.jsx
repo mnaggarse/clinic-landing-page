@@ -5,7 +5,7 @@ export default function Header() {
 
   return (
     <header className="bg-white text-slate-800 py-4 px-6 md:px-24 border-b border-b-slate-100 shadow-sm sticky top-0 z-50">
-      <nav className="flex justify-between items-center relative">
+      <nav className="max-w-7xl mx-auto flex justify-between items-center relative">
         <a
           href="#home"
           className="flex items-center gap-2 font-bold text-2xl text-primary"
